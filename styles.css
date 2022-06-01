@@ -1,0 +1,428 @@
+
+.contenedor{
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 1%;
+}
+body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+.encabezado{
+  overflow: hidden;
+  padding: 7px 10px;
+  background-color:#03132b;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px grey;
+  border: 0;
+}
+
+.encabezado a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+   
+}
+
+.encabezado a.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    font-family: serif; 
+}
+
+.encabezado img{
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.header-right {
+    font-size: 1.25em;
+    list-style: none;
+    margin-right: 7px;
+    padding: 7px;
+    float:  right;
+    background-color:#1f5f7e;
+    border-radius: 10px;
+}
+
+.header-right a:hover{
+    background-color:white;
+    color:#302c3d;
+    border-radius: 10px;
+}
+
+
+
+/*-----------------------------------------------------------------INICIO----------------------------------------------------------------*/
+
+.main{
+    width: 67%;
+    background-color: rgba(31,95,126,0.8);
+    padding: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    box-shadow: 1px 1px 10px black;
+    box-sizing: border-box;
+}
+
+.main h1{
+    text-align: center;
+    font-size: 2em;
+    color: #03132b;
+    font-weight: bold;
+}
+
+.main img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.main p{
+   text-align: justify;
+   line-height: 140%;
+   font-size: 1.4em;
+   color: white;
+}
+
+aside{
+    width: 30%;
+    padding: 20px;
+    height: 587px;
+    box-sizing: border-box;
+    background-color: rgba(31,95,126,0.8);
+    float: right;
+    margin: 10px 10px ;
+    box-shadow: 1px 1px 10px black;
+   /*  border-radius: 10px; */
+  
+}
+
+aside h1{
+    text-align: center; 
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #03132b ;
+    margin-top: 20%;
+}
+
+aside p{
+    text-align: justify;
+    line-height: 140%;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 7%;
+}
+
+aside li{
+    text-align: justify;
+    line-height: 120%;
+    font-size: 1.2em;
+    list-style: none;
+    margin-top: 2.5%;
+    color: white;
+}
+
+aside img{
+    width: 22%;
+    box-shadow: 1px 1px 10px black;
+    display: block;
+    margin-left: auto;
+    margin-right: 7%;
+    margin-top: -35%;
+    
+}
+
+.header-right-int {
+
+    margin-right: 7px;
+    margin-top:  7px;
+    padding: 7px;
+    background-color:#1b5876;
+    border-radius: 10px;
+    height: 95%;
+    box-shadow: 1px 1px 10px black;
+}
+
+/* footer{
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background: #000;
+} */
+
+/*-----------------------------------------------------------------INFORMACION----------------------------------------------------------------*/
+
+.main2 {
+    width: 67%;
+    background-color: rgba(31,95,126,0.8);
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    box-shadow: 1px 1px 10px black;
+    /* border-radius: 10px; */
+    box-sizing: border-box;  
+}
+
+.main2 h1{
+    text-align: center;
+    font-size: 2em;
+    color: #03132b ;
+    font-weight: bolder;
+}
+
+.main2 p{
+    text-align: justify;
+    line-height: 150%;
+    font-size: 1.3em;
+    padding-right: 0%;
+    color: white;
+}
+
+
+
+aside2{
+    width: 29%;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(31,95,126);
+    float: right;
+    margin: 10px 10px ;
+    box-shadow: 1px 1px 10px black;
+  
+}
+
+aside2 h1{
+    text-align: left; 
+    font-size: 1.9em;
+    font-weight: bold;
+    color: #03132b ;
+    margin-top: 10%;
+}
+
+aside2 li{
+    text-align: justify;
+    line-height: 140%;
+    font-size: 1.1em;
+    list-style: none;
+    margin-top: 2.5%;
+    margin-left: -12%;
+    color: white;
+}
+
+aside2 a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+aside2 p{
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.1em;
+    padding-right: 0%;
+    color: white;
+}
+
+.datos-tabla{
+    font-size: 1.25em;
+    list-style: none;
+    margin-right: -1%;
+    padding: 7px;
+    float:  right;
+    background-color: #03132b;
+    border-radius: 10px;
+}
+
+.datos-tabla a:hover{
+    background-color:white;
+    color:#302c3d;
+    border-radius: 10px;
+}
+
+
+/*-----------------------------------------------------------------AGREGAR----------------------------------------------------------------*/
+
+.datosExperimento{
+    width: auto;
+    background-color: rgba(31,95,126);
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    box-sizing: border-box;  
+    padding: 20px 20px;
+	margin: calc(25% + 100px);
+	margin-top: 30px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+.datosExperimento h1{
+    text-align: center;
+	padding: 0px;
+	color: #03132b;
+}
+
+.datosExperimento label{
+    text-align: left;
+    line-height: 150%;
+    font-size: 1em;
+    color: white;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+p#texto{
+    text-align: center;
+    color: #03132b;
+}
+
+div#div_file{
+    position: relative;
+    width: 100%;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div#div_file input#btn_enviar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+input[type=submit],select {
+    width: 100%;
+    background-color: #03132b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #03132b;
+}
+
+/*-----------------------------------------------------------------VISUALIZAR----------------------------------------------------------------*/
+.tabla table {
+    width: 60%;
+    border: 2px solid #000;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+   /*  margin-left: 400px; */
+    
+}
+th,td{
+    border: solid 2px black;
+    padding: 20px;
+}
+
+/* .tabla table th,td{
+    
+   padding: 20px;
+} */
+/*  .tabla table td{
+     
+    padding: 20px;
+} */
+
+.tabla table thead{
+    background-color: #1f5f7e;
+    border-bottom: solid 5px #03132b;
+    color: white;
+}
+
+.tabla table tr:nth-child(even){
+    background-color: #1f5f7e;
+}
+
+.tabla table tr:hover{
+    background-color: #03132b;
+    color: white;
+}
+
+/*  caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+ }
+ .odd th, .odd td {
+    background: #eee;
+ } */
+/* 
+input[type=submit] a:hover{
+    background-color:white;
+    color:#302c3d;
+    border-radius: 10px;
+} */
+
+
+/* @media screen and (max-width: 1400px){
+    .main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}
+ */
